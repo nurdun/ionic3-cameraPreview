@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  The world is your oyster.
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+  </p>
+  <div id="preview">
+    <button ion-button (click)="startCamera()">Start Camera</button>
+    <button ion-button (click)="stopCamera()">Stop Camera</button>
+    <button ion-button (click)="showCamera()">Show Camera</button>
+    <button ion-button (click)="takePicture()">Take Picture</button>
+  </div>
+
+  <div class="pictures">
+    <p><img id="previewPicture" width="200" /></p>
+    <!--<p><img id="originalPicture" width="200"/></p>-->
+  </div>
+</ion-content>
